@@ -1,7 +1,7 @@
 # AWS Account Setup Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date Completed:** [Date]
+**Student Name:** Cielo Escobar
+**Date Completed:** 02/02/26
 
 ---
 
@@ -11,9 +11,9 @@
 ![MFA Enabled](screenshots/mfa-enabled.png)
 
 ### Notes:
-- Authenticator app used: [Google Authenticator / Microsoft Authenticator / Authy]
-- MFA setup completed successfully: [Yes / No]
-- Backup codes saved: [Yes / No]
+- Authenticator app used: Google Authenticator
+- MFA setup completed successfully: Yes
+- Backup codes saved: Yes
 
 ---
 
@@ -31,9 +31,9 @@
 ![SNS Confirmed](screenshots/sns-confirmed.png)
 
 ### Configuration Details:
-- Alert threshold: $[amount]
-- Email confirmed: [Yes / No]
-- Additional thresholds created (bonus): [Yes / No - if yes, list amounts]
+- Alert threshold: $10
+- Email confirmed: No
+- Additional thresholds created (bonus): No
 
 ---
 
@@ -43,9 +43,9 @@
 ![Account Alias](screenshots/account-alias.png)
 
 ### Account Details:
-- **Account Alias:** [your-alias-here]
-- **Sign-In URL:** `https://[your-alias].signin.aws.amazon.com/console`
-- **Tested successfully:** [Yes / No]
+- **Account Alias:** cielo-cloud
+- **Sign-In URL:** https://cielo-cloud.signin.aws.amazon.com/console
+- **Tested successfully:** Yes
 
 ---
 
@@ -57,14 +57,14 @@
 ### Current Free Tier Usage Summary:
 
 | Service | Current Usage | Free Tier Limit | Status |
-|---------|--------------|-----------------|--------|
+
 | EC2 | [X hours / 750 hours] | 750 hours/month | [Green/Yellow/Red] |
 | S3 | [X GB / 5 GB] | 5 GB | [Green/Yellow/Red] |
 | [Other services...] | | | |
 
 ### Notes:
-- Any services approaching limits? [Yes / No - if yes, which ones?]
-- Any unexpected usage? [Yes / No - if yes, describe]
+- Any services approaching limits?  No
+- Any unexpected usage? No
 
 ---
 
@@ -73,43 +73,41 @@
 ### 1. Why is MFA important even for a personal learning account?
 
 **Your Answer:**
-[Write your answer here. Consider: What could happen if someone gained access to your account? What damage could they do? What costs could they incur?]
-
+It’s important because even for a learning account, MFA adds an extra layer of security. This way, if someone ever gets my password, they still won’t be able to log in without the second verification step. It helps keep my account and data safe while I’m practicing.
 ---
 
 ### 2. What would happen if you left your root user unprotected?
 
 **Your Answer:**
-[Write your answer here. Think about: What access does root user have? What could an attacker do? How would you recover?]
-
+If I left my root user unprotected, anyone could have full access to my account. They could change settings, delete resources, or even make charges without me knowing. It’s really risky, so protecting the root user is essential.
 ---
 
 ### 3. How do billing alerts help prevent unexpected charges?
 
 **Your Answer:**
-[Write your answer here. Consider: When do you get notified? What actions can you take? Why is proactive monitoring important?]
+Billing alerts help because they notify me when my usage reaches a set limit. That way, I can check my services or stop something before I get charged unexpectedly. It’s a simple way to stay on top of costs.
 
 ---
 
 ### 4. What threshold did you set for your billing alert and why?
 
 **Your Answer:**
-[Write your answer here. Explain: Why did you choose this amount? Is it appropriate for your usage? Would you set multiple thresholds?]
+I set it at $10 for 1 datapoint within 6 hours because it’s the recommended setting. This way, I get notified if my estimated charges go above $10 in a short period, which helps prevent unexpected costs.
 
 ---
 
 ### 5. What is your account alias and why did you choose it?
 
 **Your Answer:**
-- **Alias:** [your-alias]
-- **Reasoning:** [Why did you choose this name? What makes it memorable and professional?]
+- **Alias:** cielo-cloud
+- **Reasoning:** My account alias is cielo-cloud. I chose it because it’s appropriate for the context and easy for me to remember.
 
 ---
 
 ### 6. What services are you currently using according to the Free Tier dashboard?
 
 **Your Answer:**
-[List the services you're using and their current usage levels. Are you surprised by any usage?]
+AWS Key Management Service, AWS Glue, Amazon Simple Notification Service
 
 ---
 
@@ -150,19 +148,19 @@
 
 **What was the most challenging part of this lab?**
 
-[Your answer]
+The most challenging part for me is still learning to navigate the AWS Management Console and understanding everything it involves.
 
 ---
 
 **What would you do differently next time?**
 
-[Your answer]
+I would keep practicing in the meantime so that navigating the AWS Management Console becomes easier and more natural, allowing me to complete tasks more confidently next time.
 
 ---
 
 **What security practices will you implement going forward?**
 
-[Your answer]
+I will keep using Multi-Factor Authentication (MFA) on my account, protect my root user at all times, and monitor my billing alerts regularly.
 
 ---
 
@@ -179,5 +177,5 @@
 
 ---
 
-**Lab Completed By:** [Your Name]  
-**Date:** [Date]
+**Lab Completed By:** Cielo Escobar
+**Date:** 02/02/26

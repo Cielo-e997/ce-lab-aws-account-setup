@@ -1,7 +1,7 @@
 # AWS Account Setup Lab - Solution
 
-**Student Name:** [Your Name]  
-**Date Completed:** [Date]
+**Student Name:** Cielo Escobar
+**Date Completed:** 02/02/26
 
 ---
 
@@ -11,9 +11,9 @@
 ![MFA Enabled](screenshots/mfa-enabled.png)
 
 ### Notes:
-- Authenticator app used: [Google Authenticator / Microsoft Authenticator / Authy]
-- MFA setup completed successfully: [Yes / No]
-- Backup codes saved: [Yes / No]
+- Authenticator app used: Google Authenticator
+- MFA setup completed successfully: Yes
+- Backup codes saved: Yes
 
 ---
 
@@ -31,9 +31,9 @@
 ![SNS Confirmed](screenshots/sns-confirmed.png)
 
 ### Configuration Details:
-- Alert threshold: $[amount]
-- Email confirmed: [Yes / No]
-- Additional thresholds created (bonus): [Yes / No - if yes, list amounts]
+- Alert threshold: $10
+- Email confirmed: No
+- Additional thresholds created (bonus): No
 
 ---
 
@@ -43,9 +43,9 @@
 ![Account Alias](screenshots/account-alias.png)
 
 ### Account Details:
-- **Account Alias:** [your-alias-here]
-- **Sign-In URL:** `https://[your-alias].signin.aws.amazon.com/console`
-- **Tested successfully:** [Yes / No]
+- **Account Alias:** cielo-cloud
+- **Sign-In URL:** https://cielo-cloud.signin.aws.amazon.com/console
+- **Tested successfully:** Yes
 
 ---
 
@@ -63,8 +63,8 @@
 | [Other services...] | | | |
 
 ### Notes:
-- Any services approaching limits? [Yes / No - if yes, which ones?]
-- Any unexpected usage? [Yes / No - if yes, describe]
+- Any services approaching limits? No
+- Any unexpected usage? No
 
 ---
 
@@ -73,44 +73,49 @@
 ### 1. Why is MFA important even for a personal learning account?
 
 **Your Answer:**
-[Write your answer here. Consider: What could happen if someone gained access to your account? What damage could they do? What costs could they incur?]
+MFA is important because even if it’s just a learning account, someone could get in and use my resources, change things, or even make me pay for stuff. It helps keep my account safe and not rely only on a password.
 
 ---
 
 ### 2. What would happen if you left your root user unprotected?
 
 **Your Answer:**
-[Write your answer here. Think about: What access does root user have? What could an attacker do? How would you recover?]
+If I leave the root user unprotected, someone could get full access to my account. They could delete things, change settings, create resources that cost money, and it would be really hard to get the account back. That’s why it’s important to protect it.
 
 ---
 
 ### 3. How do billing alerts help prevent unexpected charges?
 
 **Your Answer:**
-[Write your answer here. Consider: When do you get notified? What actions can you take? Why is proactive monitoring important?]
+Billing alerts let me know if I’m getting close to a spending limit I set. That way I can do something, like stop using a service, before I get charged too much. It’s helpful so I don’t get surprised by extra costs.
+
 
 ---
 
 ### 4. What threshold did you set for your billing alert and why?
 
 **Your Answer:**
-[Write your answer here. Explain: Why did you choose this amount? Is it appropriate for your usage? Would you set multiple thresholds?]
+I set the threshold to $10 because that was what was recommended for beginners. It’s a good amount because it’s not too much, but it gives me time to react if something starts costing more than expected. 
 
 ---
 
 ### 5. What is your account alias and why did you choose it?
 
 **Your Answer:**
-- **Alias:** [your-alias]
-- **Reasoning:** [Why did you choose this name? What makes it memorable and professional?]
+- **Alias:** cielo-cloud
+- **Reasoning:** I picked this alias because it’s easy to remember and looks professional. It has my name and shows it’s for cloud stuff, so I don’t get it confused with other accounts.
 
 ---
 
 ### 6. What services are you currently using according to the Free Tier dashboard?
 
 **Your Answer:**
-[List the services you're using and their current usage levels. Are you surprised by any usage?]
+I’m currently using:
+	- AWS Glue
+	- Amazon Simple Notification Service (SNS)
+	- AWS Key Management Service (KMS)
 
+I’m not really surprised by the usage because I’m just learning and exploring these services to practice.
 ---
 
 ## Bonus Challenges Completed (Optional)
@@ -150,34 +155,34 @@
 
 **What was the most challenging part of this lab?**
 
-[Your answer]
+The most challenging part was starting to understand AWS and how everything works. There are a lot of services and settings, so it was a bit confusing at first.
 
 ---
 
 **What would you do differently next time?**
 
-[Your answer]
+Next time, I would take it slower and practice more with each service before moving on. I think with more practice, it will be easier to understand.
 
 ---
 
 **What security practices will you implement going forward?**
 
-[Your answer]
+I will make sure to always use MFA, protect my root user, monitor billing alerts, and follow best practices for IAM and access. 
 
 ---
 
 ## Checklist Before Submission
 
-- [ ] All required screenshots captured and saved
-- [ ] Screenshots are clear and show relevant information
-- [ ] All reflection questions answered thoroughly
-- [ ] Account alias documented
-- [ ] Free Tier usage documented
-- [ ] Work committed to Git
-- [ ] Pull request created
-- [ ] PR URL submitted to Student Portal
+- [x] All required screenshots captured and saved
+- [x] Screenshots are clear and show relevant information
+- [x] All reflection questions answered thoroughly
+- [x] Account alias documented
+- [x] Free Tier usage documented
+- [x] Work committed to Git
+- [x] Pull request created
+- [x] PR URL submitted to Student Portal
 
 ---
 
-**Lab Completed By:** [Your Name]  
-**Date:** [Date]
+**Lab Completed By:** Cielo Escobar
+**Date:** 02/02/26
